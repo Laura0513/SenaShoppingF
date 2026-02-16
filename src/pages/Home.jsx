@@ -1,13 +1,13 @@
 import Hero from '../components/Hero/Hero'
-import Destacados from '../components/Destacados/Destacados'
-import Emprendedor from '../components/Emprendedor/Emprendedor'
+import Recents from '../components/Recents/Recents'
+import Entrepreneur from '../components/Entrepreneur/Entrepreneur'
 
 export default function Home() {
     return (
         <main>
             <Hero />
-            <Destacados />
-            <Emprendedor />
+            <Recents />
+            <Entrepreneur />
         </main>
     )
 }

@@ -1,4 +1,5 @@
 import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -10,17 +11,17 @@ export default function Footer() {
                 <article className="space-y-2 text-gray-500 text-sm">
                     <h4 className="font-bold pb-3 text-black text-base">Enlaces Rápidos</h4>
                     <div className="flex flex-col gap-3">
-                        <a href="">Productos</a>
-                        <a href="Emprendedores">Emprendedores</a>
-                        <a href="">Vender</a>
+                        <Link to="/productos" className="hover:text-[#03a741]">Productos</Link>
+                        <Link to="/emprendedores" className="hover:text-[#03a741]">Emprendedores</Link>
+                        <Link to="/register" className="hover:text-[#03a741]">Vender</Link>
                     </div>
                 </article>
                 <article className="space-y-2 text-gray-500 text-sm">
                     <h4 className="font-bold pb-3 text-black text-base">Soporte</h4>
                     <div className="flex flex-col gap-3">
-                        <a href="">Centro de ayuda</a>
-                        <a href="">Términos y condiciones</a>
-                        <a href="">Política de privacidad</a>
+                        <Link to="" className="hover:text-[#03a741]" >Centro de ayuda</Link>
+                        <Link to="" className="hover:text-[#03a741]" >Términos y condiciones</Link>
+                        <Link to="" className="hover:text-[#03a741]" >Política de privacidad</Link>
                     </div>
                 </article>
                 <article className="space-y-2 text-gray-500 text-sm">

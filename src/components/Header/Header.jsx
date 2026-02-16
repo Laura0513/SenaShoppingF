@@ -15,16 +15,16 @@ export default function Header() {
                 </div>
             </section>
             <nav className="flex items-center gap-8">
-                <Link to="/" className="text-black font-bold hover:text-[#03a941] transition-colors duration-200">
+                <Link to="/" className="text-black text-sm font-bold hover:text-[#03a941] transition-colors duration-200">
                     Inicio
                 </Link>
-                <Link to="/productos" className="text-black font-bold hover:text-[#03a941] transition-colors duration-200">
+                <Link to="/productos" className="text-black text-sm font-bold hover:text-[#03a941] transition-colors duration-200">
                     Productos
                 </Link>
-                <Link to="/emprendedores" className="text-black font-bold hover:text-[#03a941] transition-colors duration-200">
+                <Link to="/entrepreneurs" className="text-black text-sm font-bold hover:text-[#03a941] transition-colors duration-200">
                     Emprendedores
                 </Link>
-                <Link to="/login" className="flex items-center gap-2.5 bg-[#03a941] py-2 px-4 rounded-full text-white hover:opacity-80 transition-all duration-200"><UserRoundIcon className="size-4" />
+                <Link to="/login" className="flex items-center text-sm gap-2.5 bg-[#03a941] py-2 px-4 rounded-full text-white hover:opacity-80 transition-all duration-200"><UserRoundIcon className="size-4" />
                     Ingresar
                 </Link>
             </nav>

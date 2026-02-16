@@ -5,6 +5,8 @@ import Productos from './pages/Productos'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Login from './pages/Login'
+import Register from './pages/Register'
+import Entrepreneurs from './pages/Entrepreneurs'
 
 export default function App() {
     return (
@@ -14,6 +16,9 @@ export default function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/productos" element={<Productos />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/entrepreneurs" element={<Entrepreneurs />} />
+
             </Routes>
             <Footer />
         </main>

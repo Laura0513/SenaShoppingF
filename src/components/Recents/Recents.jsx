@@ -1,10 +1,10 @@
 import { MailIcon, MapPinIcon } from "lucide-react";
 
-export default function Destacados() {
+export default function Recents() {
     return (
         <section className="px-4 pb-16">
             <header className="flex flex-col items-center justify-center pt-16 pb-10 gap-2">
-                <h2 className="text-3xl font-bold">Productos Destacados</h2>
+                <h2 className="text-3xl font-bold">Productos Recientes</h2>
                 <p className="text-gray-600">Descubre lo mejor del talento colombiano</p>
             </header>
             <article className="grid grid-cols-3 gap-8">
