@@ -30,7 +30,7 @@ export default function Productos() {
                 <p className="text-gray-600">Descubre lo mejor del talento colombiano</p>
             </header>
             <article className="grid grid-cols-4 gap-8">
-                <div className="group overflow-hidden border rounded-xl border-gray-300 transition-all duration-200 hover:shadow-lg">
+                <Link to="/productDetail" className="group overflow-hidden border rounded-xl border-gray-300 transition-all duration-200 hover:shadow-lg">
                     <section className="relative aspect-square overflow-hidden">
                         <img className="group-hover:scale-105 w-full h-full object-cover transition-transform duration-200 rounded-t-xl" src="src/assets/bolso.png" alt="Artesanías" />
                         <p className="absolute top-3 right-3 text-white bg-[#03a941] rounded-full px-3 py-1 text-xs">Artesanías</p>
@@ -47,7 +47,7 @@ export default function Productos() {
                         <p className="text-[#03a941] font-bold text-xl">$180.000</p>
                         <a className="flex items-center gap-2 border border-gray-300 rounded-lg px-3.5 py-1.5 text-sm font-bold hover:bg-[#03a941] hover:text-white transition-colors duration-200" href=""><MailIcon className="size-4" />Contactar</a>
                     </footer>
-                </div>
+                </Link>
                 <div className="group overflow-hidden border rounded-xl border-gray-300 transition-all duration-200 hover:shadow-lg">
                     <section className="relative aspect-square overflow-hidden">
                         <img className="group-hover:scale-105 w-full h-full object-cover transition-transform duration-200 rounded-t-xl" src="src/assets/bolso.png" alt="Artesanías" />
