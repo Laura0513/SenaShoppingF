@@ -1,4 +1,5 @@
 import { CircleUserRoundIcon, MailIcon, MapPinIcon, PackageIcon } from "lucide-react";
+import { Link } from 'react-router-dom'
 
 export default function Entrepreneurs() {
     return (
@@ -28,7 +29,7 @@ export default function Entrepreneurs() {
                         <p className="flex items-center gap-1 text-sm "><PackageIcon className="size-4 text-gray-500" />23 productos</p>
                     </div>
                     <footer className="px-5 pb-5">
-                        <a className="flex items-center justify-center gap-2 border border-gray-300 rounded-lg py-2 text-sm font-bold hover:bg-[#03a941] hover:text-white transition-colors duration-200" href=""><CircleUserRoundIcon className="size-4" />Ver perfil</a>
+                        <Link to="/entrepreneurprofile" className="flex items-center justify-center gap-2 border border-gray-300 rounded-lg py-2 text-sm font-bold hover:bg-[#03a941] hover:text-white transition-colors duration-200"><CircleUserRoundIcon className="size-4" />Ver perfil</Link>
                     </footer>
                 </div>
             </article>

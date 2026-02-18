@@ -19,7 +19,7 @@ export default function ProductDetail() {
                         <p className="inline-flex text-[#03a741] bg-[#e5f5ec] font-bold rounded-full px-3 py-1 text-xs">Artesanías</p>
                         <h1 className='font-bold text-3xl'>Bolso Artesanal de Cuero</h1>
                         <h2 className='font-bold text-[#03a741] text-4xl'>$180.000</h2>
-                        <p className="flex items-center gap-1 text-sm text-gray-500 "><PackageIcon className="size-4 text-gray-500" />5 productos disponibles</p>
+                        <p className="flex items-center gap-1 text-sm text-gray-500 "><PackageIcon className="size-4 text-gray-500" />5 unidades disponibles</p>
                         <p className="flex items-center gap-1 text-sm text-gray-500 "><ShieldIcon className="size-4 text-[#03a741]" />Producto respaldado por SENA</p>
                     </div>
                     <div className="flex flex-col items-start bg-[#DCFCE7] gap-3 p-5 group overflow-hidden border rounded-xl border-gray-300 transition-all duration-200 hover:shadow-lg">

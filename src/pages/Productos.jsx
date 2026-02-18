@@ -3,8 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function Productos() {
     return (
-        <section
-            className="w-full border-b border-gray-200 bg-white flex flex-col items-center justify-between py-5 px-10 transition-all duration-300">
+        <section className="w-full border-b border-gray-200 bg-white flex flex-col items-center justify-between py-5 px-10 transition-all duration-300">
             <article className="flex items-center justify-between w-full">
                 <div className="relative w-full">
                     <SearchIcon className="absolute text-gray-500 top-1/2 left-3 transform -translate-y-1/2 size-4" />

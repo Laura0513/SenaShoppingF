@@ -13,7 +13,7 @@ export default function Hero() {
                     extraordinarios. Cada compra apoya el talento nacional.</p>
                 <section className="flex gap-4">
                     <Link to="/productos" className="py-3 px-5 rounded-xl flex items-center gap-2 text-[#016630] bg-white hover:opacity-80 backdrop-blur-sm transition-all duration-200 font-bold text-sm cursor-pointer group" href="">Explorar productos <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-transform duration-200" /></Link>
-                    <a className="py-3 px-5 border border-white rounded-xl flex items-center gap-1 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-200 text-white font-bold text-sm" href="">Vender mis productos</a>
+                    <Link to="/login" className="py-3 px-5 border border-white rounded-xl flex items-center gap-1 bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all duration-200 text-white font-bold text-sm" href="">Vender mis productos</Link>
                 </section>
             </article>
         </section>

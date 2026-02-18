@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-3">
                         <Link to="/productos" className="hover:text-[#03a741]">Productos</Link>
                         <Link to="/entrepreneurs" className="hover:text-[#03a741]">Emprendedores</Link>
-                        <Link to="/register" className="hover:text-[#03a741]">Vender</Link>
+                        <Link to="/login" className="hover:text-[#03a741]">Vender</Link>
                     </div>
                 </article>
                 <article className="space-y-2 text-gray-500 text-sm">
